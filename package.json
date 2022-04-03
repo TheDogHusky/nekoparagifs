@@ -1,0 +1,26 @@
+{
+  "name": "nekoparagifs",
+  "version": "0.0.21",
+  "description": "A package to get random nekopara GIFs! And more soon!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDogHusky/nekoparagifs.git"
+  },
+  "keywords": [
+    "nekopara",
+    "nekoparagifs",
+    "gifs",
+    "random",
+    "randomgift"
+  ],
+  "author": "classycrafter",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/TheDogHusky/nekoparagifs/issues"
+  },
+  "homepage": "https://github.com/TheDogHusky/nekoparagifs#readme"
+}
