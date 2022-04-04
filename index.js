@@ -1,3 +1,14 @@
+"use-strict";
+
+/**
+ * @author ClassyCrafter
+ * @description A package to get random for NekoPARA Universe
+ * @version 0.1.21
+ * @license GNU-3.0
+ */
+
+
+
 const hugGifs = [
     "https://c.tenor.com/znURt9fG-KcAAAAC/anime-hug-anime-nekopara.gif",
     "https://c.tenor.com/EpmODUIRch8AAAAd/nekopara-chocola.gif", 

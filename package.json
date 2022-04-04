@@ -1,6 +1,6 @@
 {
   "name": "nekoparagifs",
-  "version": "0.0.21",
+  "version": "0.1.21",
   "description": "A package to get random nekopara GIFs! And more soon!",
   "main": "index.js",
   "scripts": {
@@ -15,10 +15,10 @@
     "nekoparagifs",
     "gifs",
     "random",
-    "randomgift"
+    "randomgif"
   ],
   "author": "classycrafter",
-  "license": "GPL-3.0-or-later",
+  "license": "GNU-3.0",
   "bugs": {
     "url": "https://github.com/TheDogHusky/nekoparagifs/issues"
   },
