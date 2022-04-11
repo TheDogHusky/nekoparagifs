@@ -35,6 +35,12 @@ const myGiffer = new nekoparagifs.Giffer();
     console.log(`HugGif: "${hugGif}"\nPatGif: "${patGif}"\nKissGif: "${kissGif}"\nCuddleGif: "${cuddleGif}"`)
 })()
 ```
+## What's New?
+> In 0.1.31, we added **memeGifs**! Use them with:
+```js
+Giffer.getMeme();
+```
+> We added some new gifs!
 ## Special thanks
 > Special thanks to  [B1rtek](https://www.youtube.com/channel/UCzKinHghI5ITVXt4fndkrRw) for giving me a lot of GIFs for the package!
 ## Additionnal informations

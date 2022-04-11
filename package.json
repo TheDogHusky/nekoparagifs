@@ -1,6 +1,6 @@
 {
   "name": "nekoparagifs",
-  "version": "0.1.21",
+  "version": "0.1.31",
   "description": "A package to get random nekopara GIFs! And more soon!",
   "main": "index.js",
   "scripts": {

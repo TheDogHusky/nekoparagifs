@@ -3,7 +3,7 @@
 /**
  * @author ClassyCrafter
  * @description A package to get random for NekoPARA Universe
- * @version 0.1.21
+ * @version 0.1.31
  * @license GNU-3.0
  */
 
@@ -45,8 +45,9 @@ const patGifs = [
 ];
 const kissGifs = [
     "https://c.tenor.com/3Y9B4si5mR4AAAAC/maple-cinnamon.gif",
-    "https://media1.tenor.com/images/b1726d7c03317421fb504faa2deb674f/tenor.gif"
-]
+    "https://media1.tenor.com/images/b1726d7c03317421fb504faa2deb674f/tenor.gif",
+    "https://c.tenor.com/0LMxPQdFBKAAAAAC/nekopara-kiss.gif"
+];
 const cuddleGifs = [
     "https://media1.tenor.com/images/b9a38b215d3fc3ba3439f681fbf24bee/tenor.gif",
     "https://media1.tenor.com/images/22b7f1a86b6a882dfc854c959007ea0f/tenor.gif",
@@ -58,6 +59,17 @@ const cuddleGifs = [
     "https://media1.tenor.com/images/d240ea9d07e513e696892a764a8a8acf/tenor.gif",
     "https://media1.tenor.com/images/5aa0da336b4d96c4ba836ea0d8cd4984/tenor.gif"
 ]
+const memeGif = [
+    "https://c.tenor.com/10v1L7TdvgMAAAAd/nekopara-ova.gif",
+    "https://c.tenor.com/5DvoBtLhBEkAAAAM/nekopara-vanilla.gif",
+    "https://c.tenor.com/RDopvo6i9sEAAAAC/nekopara-clap.gif",
+    "https://c.tenor.com/OoFnb9P2Au0AAAAC/nekopara-azuki.gif",
+    "https://c.tenor.com/zvI7xkVE6LMAAAAd/nekopara.gif",
+    "https://c.tenor.com/ScwpqTWkk9gAAAAC/nekopara-vanilla.gif",
+    "https://cdn.discordapp.com/attachments/951937985564254258/963084867602645062/chest_bunciness.gif",
+    "https://c.tenor.com/_OLU_tILtKIAAAAC/nekopara-very-nice.gif",
+    "https://c.tenor.com/i2DwOymYdEAAAAAd/nekopara-maple.gif"
+];
 
 /**
  * Represents a giffer, to interact with all the gifs!
@@ -126,6 +138,22 @@ class Giffer {
             try {
                 const rnumber = Math.floor(Math.random() * cuddleGifs.length);
                 const returned = cuddleGifs[rnumber];
+                resolve(returned);
+            } catch(err) {
+                reject(err);
+            };
+        });
+        return p;
+    };
+    /**
+     * Get a random meme
+     * @returns {Promise} The random meme gif as a promise
+     */
+    getMeme() {
+        const p = new Promise(async (resolve, reject) => {
+            try {
+                const rnumber = Math.floor(Math.random() * memeGif.length);
+                const returned = memeGif[rnumber];
                 resolve(returned);
             } catch(err) {
                 reject(err);
